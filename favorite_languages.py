@@ -18,6 +18,7 @@ for name in take_poll:
         print(name.title() + ", Thank you for responding")
     else:
         print(name.title() + ", please take the poll!")
+        
 # if 'erin' not in favorite_languages.keys():
 #         print("Erin, please take our poll!\n")
 
