@@ -5,19 +5,33 @@ favorite_languages = {
     'phil': 'python',
 }
 
-if 'erin' not in favorite_languages.keys():
-        print("Erin, please take our poll!\n")
+#6-6
+take_poll = {
+    'sam': '123',
+    'test': 'value',
+    'sarah': 'c',
+    'phil': 'python',
+}
 
-friends = ['phil', 'sarah']
-for name in favorite_languages.keys():
-    print(name.title())
+for name in take_poll:
+    if name in favorite_languages:
+        print(name.title() + ", Thank you for responding")
+    else:
+        print(name.title() + ", please take the poll!")
+# if 'erin' not in favorite_languages.keys():
+#         print("Erin, please take our poll!\n")
 
-    if name in friends:
-        print ("Hi " + name.title() + ", I see your favorite language is " + favorite_languages[name].title()+ "!")
+# friends = ['phil', 'sarah']
+# for name in favorite_languages.keys():
+#     print(name.title())
 
-for name in sorted(favorite_languages.keys()):
-    print( name.title() + ", thank you for taking the poll.")
+#     if name in friends:
+#         print ("Hi " + name.title() + ", I see your favorite language is " + favorite_languages[name].title()+ "!")
 
-print("\nThe following languages have been mentioned: ")
-for language in set(favorite_languages.values()):
-    print(language.title())
+# for name in sorted(favorite_languages.keys()):
+#     print( name.title() + ", thank you for taking the poll.")
+
+# print("\nThe following languages have been mentioned: ")
+# for language in set(favorite_languages.values()):
+#     print(language.title())
+
