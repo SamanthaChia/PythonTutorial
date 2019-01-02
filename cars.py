@@ -1,5 +1,10 @@
 cars = ['bmw', 'audi', 'toyota', 'subaru']
 cars.sort()
+for car in cars:
+    if car == 'bmw':
+        print(car.upper())
+    else:
+        print(car.title())
 print(cars)
 # sort by ascending alphabet. (?)
 
