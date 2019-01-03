@@ -28,5 +28,5 @@ favorite_places = {
     'owen': 'home'
 }
 
-for name,favorite_place in favorite_places.items():
-    print(name + "'s favorite place is : " + favorite_place)
+# for name,favorite_place in favorite_places.items():
+#     print(name + "'s favorite place is : " + favorite_place)
