@@ -13,12 +13,21 @@
 #     print(friend_pizza)
 
 # Store information about a pizza being ordered.
-pizza = {
-    'crust': 'thick',
-    'toppings': ['mushrooms', 'extra cheese'],
-}
+# pizza = {
+#     'crust': 'thick',
+#     'toppings': ['mushrooms', 'extra cheese'],
+# }
 
-print("You ordered a " + pizza['crust'] + "-crust pizza with the following toppings: ")
+# print("You ordered a " + pizza['crust'] + "-crust pizza with the following toppings: ")
 
-for topping in pizza['toppings']:
-    print("\t" + topping)
+# for topping in pizza['toppings']:
+#     print("\t" + topping)
+
+def make_pizza(*toppings):
+    """Summarize the pizza we are about to make. """
+    print("\nMaking a pizza with the following toppings:")
+    for topping in toppings:
+        print("- " + topping)
+
+make_pizza('pepperoni')
+make_pizza('mushrooms','green peppers', 'extra cheese')
