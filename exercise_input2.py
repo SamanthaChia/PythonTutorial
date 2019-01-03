@@ -24,13 +24,13 @@
 #         print("The cost of yout ticket is $15")
 
 #7-6
-prompt = "\nEnter 'quit' to end the program."
-prompt += "\nPlease enter pizza toppings : "
+# prompt = "\nEnter 'quit' to end the program."
+# prompt += "\nPlease enter pizza toppings : "
 
-active = True
-while active:
-    pizza_topping = input(prompt)
-    if pizza_topping == 'quit':
-        active = False
-    else:
-        print("I'll add " + pizza_topping + " on your pizza!")
+# active = True
+# while active:
+#     pizza_topping = input(prompt)
+#     if pizza_topping == 'quit':
+#         active = False
+#     else:
+#         print("I'll add " + pizza_topping + " on your pizza!")
