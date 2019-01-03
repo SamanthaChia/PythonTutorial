@@ -18,9 +18,16 @@ def make_album(artist_name, album_title, no_of_tracks=''):
         album ={'artist_name' : artist_name, 'album_title' : album_title}
     return album
 
-album1 = make_album('sam','testing album',4)
-print(album1)
-album2 = make_album('test', 'rock album')
-print(album2)
-album3 = make_album('nami', 'koi fish album')
-print(album3)
+while True:
+    print("(Enter q to quit anytime)")
+    print("Enter the album's artist and title!")
+    artist_name = input("Artist Name: ")
+    album_name = input("Album Name: ")
+    if artist_name == 'q':
+        break
+    elif album_name == 'q':
+        break
+    else:
+        print(make_album(artist_name,album_name))
+
+    
