@@ -24,5 +24,6 @@ def show_magicians(magicians):
 
         
 
-make_great(magicians,great_magicians)
+make_great(magicians[:],great_magicians)
+show_magicians(magicians)
 show_magicians(great_magicians)
