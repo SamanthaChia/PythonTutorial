@@ -15,3 +15,9 @@ print(restaurant.restaurant_name)
 print(restaurant.cuisine_type)
 restaurant.describe_restaurant()
 restaurant.open_restaurant()
+
+restaurant2 = Restaurant('McDonalds','western')
+restaurant2.describe_restaurant()
+
+restaurant3= Restaurant('Sushi Tei', 'Japanese')
+restaurant3.describe_restaurant()
