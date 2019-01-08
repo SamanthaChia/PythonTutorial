@@ -30,7 +30,10 @@ class Car():
     def increment_odometer(self, miles):
         """Add the given amount to the odometer reading. """
         self.odometer_reading += miles
-        
+
+""" A set of classes that can be used to represent electric cars. """
+from car import Car
+     
 class Battery():
     """A simple attempt to model a battery for an electric car. """
     
