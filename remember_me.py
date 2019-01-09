@@ -26,6 +26,6 @@ def greet_user():
         print("Welcome back, " + username)
     else:
         username = get_new_username()
-        print("We'll remembber you when you come back, " + username )
+        print("We'll remember you when you come back, " + username )
 
 greet_user()
