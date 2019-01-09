@@ -1,3 +1,6 @@
-def city(name, country):
-    full_text = "The city name is " + name.title() + " and its country is " + country.title()
+def city(name, country,population=''):
+    if population:
+        full_text = name.title() + ", " + country.title() + " - population " + population 
+    else:
+        full_text = name.title() + ", " + country.title()
     return full_text

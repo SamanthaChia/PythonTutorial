@@ -6,6 +6,6 @@ class CityTestCase(unittest.TestCase):
 
     def test_city_country(self):
         city_santiago = city('santiago','chile')
-        self.assertEqual(city_santiago,"The city name is Santiago and its country is Chile")
+        self.assertEqual(city_santiago,"Santiago, Chile")
 
 unittest.main()
