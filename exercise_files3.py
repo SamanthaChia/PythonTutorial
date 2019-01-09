@@ -26,7 +26,7 @@ try:
         print(cat_contents)
         print("\n")
 except FileNotFoundError:
-    print("The file " + catfile + " is not found")
+    pass
 
 try:
     with open(dogfile) as dog_open:
