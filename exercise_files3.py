@@ -17,20 +17,27 @@
 #     total = number1 + number2
 #     print("The total is : " + str(total))
 
-catfile = 'cats.txt'
-dogfile = 'dogs.txt'
+# catfile = 'cats.txt'
+# dogfile = 'dogs.txt'
 
-try:
-    with open(catfile) as cat_open:
-        cat_contents = cat_open.read()
-        print(cat_contents)
-        print("\n")
-except FileNotFoundError:
-    pass
+# try:
+#     with open(catfile) as cat_open:
+#         cat_contents = cat_open.read()
+#         print(cat_contents)
+#         print("\n")
+# except FileNotFoundError:
+#     pass
 
-try:
-    with open(dogfile) as dog_open:
-        dog_contents = dog_open.read()  
-        print(dog_contents)
-except FileNotFoundError:
-    print("The file " + dogfile + " is not found")
+# try:
+#     with open(dogfile) as dog_open:
+#         dog_contents = dog_open.read()  
+#         print(dog_contents)
+# except FileNotFoundError:
+#     print("The file " + dogfile + " is not found")
+
+filename = 'wizard_oz.txt'
+
+with open(filename) as f_obj:
+    contents = f_obj.read()
+    contents_count = contents.count('the')
+    print(contents_count)
