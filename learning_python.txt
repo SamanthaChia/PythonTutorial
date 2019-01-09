@@ -1,0 +1,6 @@
+In Python you can do if else loops
+In Python you can do for loops
+In Python you can do lists
+In Python you can do functions
+In Python you can do classes
+In Python you can do objects
